@@ -50,15 +50,15 @@ export default function Home() {
         <p className="light-cyan text-center text-2xl md:text-4xl px-14 pb-12 font-bold">
           {adviceData.advice}
         </p>
-        <Image src="/pattern-divider-desktop.svg" width={550} height={10} className="sm:hidden md:block" alt="Pattern Divider Desktop" />
-        <Image src="/pattern-divider-mobile.svg" width={250} height={10} className="sm:block md:hidden" alt="Pattern Divider Mobile" />
+        <Image src="/advice-generator/pattern-divider-desktop.svg" width={550} height={10} className="sm:hidden md:block" alt="Pattern Divider Desktop" />
+        <Image src="/advice-generator/pattern-divider-mobile.svg" width={250} height={10} className="sm:block md:hidden" alt="Pattern Divider Mobile" />
         <button
           onClick={handleFetchNewAdvice}
           className="w-[65px] h-[65px] neon-green-bg flex items-center justify-center rounded-full relative top-[35px] hover:scale-110"
           aria-label="Fetch new advice"
         >
           <Image
-            src="/icon-dice.svg"
+            src="/advice-generator/icon-dice.svg"
             width={25}
             height={25}
             alt="Dice Icon"
