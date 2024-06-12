@@ -6,10 +6,11 @@ const nextConfig = {
     assetPrefix: isProd ? '/advice-generator/' : '',
     basePath: isProd ? '/advice-generator' : '',
     output: 'export',
-    distDir: 'dist',
+    // distDir: 'dist',
     images: {
-        unoptimized: true,
-    },
+        loader: 'imgix',
+        path: '',
+      },
 };
 
 export default nextConfig;
