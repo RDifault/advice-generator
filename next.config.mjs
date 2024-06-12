@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 
-const isProd = process.env.NODE_ENV = 'production';
+const isProd = process.env.NODE_ENV === 'production';
 
 const nextConfig = {
     assetPrefix: isProd ? '/advice-generator/' : '',
@@ -8,8 +8,7 @@ const nextConfig = {
     output: 'export',
     // distDir: 'dist',
     images: {
-        loader: 'imgix',
-        path: '',
+        unoptimized: true,
       },
 };
 
