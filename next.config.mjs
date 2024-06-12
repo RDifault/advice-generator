@@ -3,6 +3,7 @@
 const isProd = process.env.NODE_ENV = 'production';
 
 const nextConfig = {
+    assetPrefix: isProd ? '/advice-generator' : '',
     basePath: isProd ? '/advice-generator' : '',
     output: 'export',
     distDir: 'dist',
