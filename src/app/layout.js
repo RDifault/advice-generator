@@ -8,6 +8,9 @@ const manrope = Manrope({ subsets: ["latin"] });
 export const metadata = {
   title: "Advice Generator",
   description: "This project is served by frontendmentor.io",
+  icons: {
+    icon: '/advice-generator/favicon.ico', 
+  },
 };
 
 export default function RootLayout({ children }) {
