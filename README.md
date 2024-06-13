@@ -1,5 +1,5 @@
 A project served by Frontend Mentor (https://www.frontendmentor.io/). In this project, i built an advice generator that will display a randomized advice everytime a user clicks the button. This project serves as my training as frontend developer. 
-The advices are served from https://api.adviceslip.com/
+The advices are obtained from https://api.adviceslip.com/
 You can access this web by visiting https://rdifault.github.io/advice-generator/
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
